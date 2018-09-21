@@ -1,0 +1,199 @@
+:root{
+    --legend-text-size : 14px;
+    --info-text-size: 18px;
+}
+
+h1 {
+    font-family: sans-serif
+}
+
+#RoverSystems {
+    white-space: pre;
+    font-family: sans-serif;    
+}
+
+.item{
+    margin-bottom: 20px;
+    background-color : rgb(240, 240, 240);
+    border-radius: 10px;
+    height : 200px;
+    width : 800px;
+}
+
+.SystemElementInfo {
+    height: 25px;
+    background-color : darkgrey;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hostInfoClass {
+    float:left;
+    font-size: var(--legend-text-size);
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    position: relative;    
+    top: 50%;
+    transform: translateY(-50%); 
+    display : block;  
+}
+
+.nameInfoClass {
+    font-size: var(--legend-text-size);
+    font-family: sans-serif;
+    float: left;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    top: 50%;
+    transform: translateY(-50%); 
+    position: relative;
+    display : block;
+}
+
+.conInfoClass {
+    font-size: var(--legend-text-size);
+    font-family: sans-serif;
+    float: left;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    position: relative;    
+    top: 50%;
+    transform: translateY(-50%); 
+    display : block;
+
+}
+
+.statusInfoClass {
+    float:left;
+    font-size: var(--legend-text-size);
+    width:100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    position: relative;    
+    top: 50%;
+    transform: translateY(-50%); 
+    display : block;
+}
+
+.BasicElementContent {
+    background-color : rgb(240, 240, 240);
+   
+    height: 50px;
+    display: block;
+}
+
+.nameClass {
+    font-size: var(--info-text-size);
+    font-family: sans-serif;
+    float: left;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    position: relative;    
+    top: 50%;
+    transform: translateY(-50%); 
+    display : block;
+}
+
+.hostClass {
+    float:left;
+    color:green;
+    font-size: var(--info-text-size);
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    position: relative;    
+    top: 50%;
+    transform: translateY(-50%); 
+    display : block;
+}
+
+.statusClass {
+    float:left;
+    font-size: var(--info-text-size);
+    width:150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    position: relative;    
+    top: 50%;
+    transform: translateY(-50%); 
+    display : block;
+}
+
+.CtrlButton {
+    float: left;
+    height: 30px;
+    width: 150px;
+    margin-left: 10px;
+    background-color: lightgrey;
+    border:black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    position: relative;    
+    top: 50%;
+    transform: translateY(-50%); 
+    display : block;
+}
+
+.CtrlButton:hover{
+    background-color: Gainsboro;
+}
+
+.CtrlButton:active {
+    vertical-align: top;
+    padding: 10px 13px 10px;
+}
+
+.CtrlButton:focus{
+    outline: none;
+}
+
+.JournalDisplay {
+    background-color: black;
+    font-size: 11px;
+    color: green;
+    margin-left: 10px;
+    margin-top: 5px;
+    width : 400px;
+    height: 140px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: pre;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.StatusLegend {
+    background-color: darkgrey;
+    height : 20px;
+    width: 300px;
+    margin: 0px;
+}
+
+.StatusInfo {
+    height : 40px;
+    margin: 0px;
+}
+
+.ButtonBar {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.LeftSide{
+    width:350px;
+    float:left;
+}
